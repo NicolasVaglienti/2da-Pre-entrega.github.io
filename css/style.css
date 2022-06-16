@@ -1,9 +1,3 @@
-:root {
-  --main-color: #be7925;
-  --black: #fcfcfc;
-  --box-shadow: 0 5px 10px rgba(255, 255, 255, 0.212);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -12,319 +6,238 @@
   border: none;
   text-decoration: none !important;
   text-transform: capitalize;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 html {
-  scroll-padding-top: 60px;
-}
-
-section {
-  padding: 5rem 0;
-  background-color: black;
-}
-
-section:nth-child(odd) {
-  background: #331f07;
-}
+  scroll-padding-top: 60px; }
 
 .heading {
   text-align: center;
   padding: 0 15px;
   padding-bottom: 5px;
-  color: var(--black);
-  font-size: 30px;
-}
+  color: #fcfcfc;
+  font-size: 30px; }
 
 .heading span {
-  color: var(--main-color);
-}
+  color: #be7925; }
+
+section {
+  padding: 5rem 0;
+  background-color: black; }
+
+section:nth-child(odd) {
+  background: #331f07; }
 
 .link-btn {
   display: inline-block;
-  background: var(--main-color);
+  background: #be7925;
   color: #fff;
   border-radius: 50px;
   padding: 5px 25px;
   font-size: 17px;
   cursor: pointer;
-  box-shadow: var(--box-shadow);
-}
-
-.link-btn:hover {
-  color: rgb(0, 0, 0);
-  background: var(--black);
-}
-
-header {
-  box-shadow: var(--box-shadow);
-  background: rgba(0, 0, 0, 0.493);
-}
-
-header .logo img {
-  width: 2.5rem;
-}
-
-header .logo span {
-  color: var(--main-color);
-}
-
-header .nav a {
-  margin-left: 3px;
-  border-radius: 50px;
-  color: var(--black);
-  padding: 5px 15px;
-}
-
-header .nav a.active,
-header .nav a:hover {
-  background: var(--main-color);
-  box-shadow: var(--box-shadow);
-  color: #fff;
-}
-
-#menu-bar {
-  color: var(--black);
-  cursor: pointer;
-  font-size: 25px;
-  transition: 0.2s linear;
-}
-
-.home {
-  min-height: 100vh;
-  background: url(../images/festejo.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.home .content span {
-  color: var(--main-color);
-  font-size: 20px;
-}
-
-.home .content h3 {
-  color: var(--black);
-  font-size: 50px;
-  font-weight: bolder;
-}
-
-.carousel-inner div {
-  height: 400px;
-  object-fit: cover;
-}
-
-.about .content h3 {
-  color: var(--black);
-  font-size: 33px;
-}
-
-.about .content p {
-  color: rgb(158, 152, 152);
-  font-size: 14px;
-}
-.team {
-  background-color: black;
-}
-.team .box {
-  flex: 1 1 300px;
-  background: #331f07;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.team .box img {
-  margin-bottom: 10px;
-  height: 70px;
-}
-
-.team .box h3 {
-  color: var(--black);
-  font-size: 20px;
-}
-
-.team .box p {
-  color: var(--black);
-  font-size: 14px;
-}
-
-.staff .box {
-  width: 260px;
-  background: #331f07;
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-  margin: 5px;
-  padding: 15px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.staff .box img {
-  background: #f8f8fe;
-  border-radius: 5px;
-  width: 100%;
-  margin-bottom: 8px;
-}
-
-.staff .box h3 {
-  font-size: 22px;
-  margin: 2px 0;
-  color: var(--black);
-}
-
-.staff .box span {
-  font-size: 15px;
-  color: var(--main-color);
-}
-
-.staff .box .share {
-  position: absolute;
-  top: 5px;
-  right: -50px;
-  transition: 0.2s;
-}
-
-.staff .box:hover .share {
-  right: 15px;
-}
-
-.staff .box .share a {
-  border-radius: 5px;
-  background: var(--main-color);
-  color: #331f07;
-  display: block;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  margin-top: 5px;
-}
-
-.staff .box .share a:hover {
-  background: var(--black);
-}
-
-.contacto {
-  background-color: black;
-}
-
-.contacto form {
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-}
-
-.contacto form .box,
-.contacto form textarea {
-  background: #331f07;
-  border-radius: 5px;
-  font-size: 17px;
-  padding: 10px;
-  margin: 7px 0;
-  width: 100%;
-  text-transform: none;
-  color: var(--black);
-}
-
-.contacto form textarea {
-  resize: none;
-  height: 200px;
-}
-
-.contacto .map {
-  border-radius: 5px;
-  height: 100%;
-  width: 100%;
-}
-
-.blogs .box {
-  width: 350px;
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-  background: #331f07;
-}
-
-.blogs .box .image {
-  height: 200px;
-  width: 100%;
-  border-radius: 5px;
-  overflow: hidden;
-  background: #f8f8fe;
-}
-
-.blogs .box .image img {
-  transition: 0.2s linear;
-}
-
-.blogs .box:hover .image img {
-  transform: scale(1.1);
-}
-
-.blogs .box .content h3 {
-  padding: 5px 0;
-  font-size: 20px;
-  color: var(--black);
-}
-
-.blogs .box .content .icons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.blogs .box .content .icons a {
-  color: #777;
-  font-size: 13px;
-}
-
-.blogs .box .content .icons a i {
-  padding-right: 7px;
-}
-
-.blogs .box .content .icons a:hover {
-  color: var(--main-color);
-}
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082); }
+  .link-btn:hover {
+    color: black;
+    background: #fcfcfc; }
 
 .footer .box {
-  flex: 1 1 250px;
-}
-
-.footer .box h3 {
-  font-size: 20px;
-  color: black;
-}
-
-.footer .box a {
-  display: block;
-  font-size: 14px;
-  color: #777;
-  padding: 5px 0;
-}
-
-.footer .box a:hover {
-  color: var(--main-color);
-}
+  flex: 1 1 250px; }
+  .footer .box a {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    padding: 5px 0; }
+    .footer .box a:hover {
+      color: #be7925; }
+  .footer .box h3 {
+    font-size: 20px;
+    color: black; }
 
 .footer .credit {
   text-align: center;
   color: black;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 10px;
-  padding-top: 20px;
-}
+  padding-top: 20px; }
+  .footer .credit span {
+    color: #be7925; }
 
-.footer .credit span {
-  color: var(--main-color);
-}
+header {
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082);
+  background: rgba(0, 0, 0, 0.493); }
+  header .logo img {
+    width: 2.5rem; }
+  header .logo span {
+    color: #be7925; }
+  header .nav a {
+    margin-left: 3px;
+    border-radius: 50px;
+    color: #fcfcfc;
+    padding: 5px 15px; }
+    header .nav a.active {
+      background: #be7925;
+      box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082);
+      color: #fff; }
+    header .nav a:hover {
+      background: #be7925;
+      box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082);
+      color: #fff; }
 
-/* media queries  */
+#menu-bar {
+  color: #fcfcfc;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.2s linear; }
+
+.home {
+  min-height: 100vh;
+  background: url(../images/festejo.jpg) no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .home .content span {
+    color: #be7925;
+    font-size: 20px; }
+  .home .content h3 {
+    color: #fcfcfc;
+    font-size: 50px;
+    font-weight: bolder; }
+  .home .carousel-inner div {
+    height: 400px;
+    object-fit: cover; }
+
+.blogs .box {
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082);
+  background: #331f07; }
+  .blogs .box .image {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f8f8fe; }
+    .blogs .box .image img {
+      transition: 0.2s linear; }
+      .blogs .box .image img:hover {
+        transform: scale(1.1); }
+  .blogs .box .content h3 {
+    padding: 5px 0;
+    font-size: 20px;
+    color: #fcfcfc; }
+  .blogs .box .content .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+    .blogs .box .content .icons a {
+      color: #777;
+      font-size: 13px; }
+      .blogs .box .content .icons a i {
+        padding-right: 7px; }
+      .blogs .box .content .icons a:hover {
+        color: #be7925; }
+
+.staff .box {
+  width: 260px;
+  background: #331f07;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082);
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden; }
+  .staff .box:hover .share {
+    right: 15px; }
+  .staff .box img {
+    background: #f8f8fe;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 8px; }
+  .staff .box h3 {
+    font-size: 22px;
+    margin: 2px 0;
+    color: #fcfcfc; }
+  .staff .box span {
+    font-size: 15px;
+    color: #be7925; }
+  .staff .box .share {
+    position: absolute;
+    top: 5px;
+    right: -50px;
+    transition: 0.2s; }
+    .staff .box .share a {
+      border-radius: 5px;
+      background: #be7925;
+      color: #331f07;
+      display: block;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      margin-top: 5px; }
+      .staff .box .share a:hover {
+        background: #fcfcfc; }
+
+.about .content h3 {
+  color: #be7925;
+  font-size: 33px; }
+
+.about .content p {
+  color: #9e9898;
+  font-size: 14px; }
+
+.team {
+  background-color: black; }
+  .team .box {
+    flex: 1 1 300px;
+    background: #331f07;
+    border-radius: 5px;
+    text-align: center; }
+    .team .box img {
+      margin-bottom: 10px;
+      height: 70px; }
+    .team .box h3 {
+      color: #fcfcfc;
+      font-size: 20px; }
+    .team .box p {
+      color: #fcfcfc;
+      font-size: 14px; }
+
+.contacto form {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.082); }
+  .contacto form .box {
+    background: #331f07;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    margin: 7px 0;
+    width: 100%;
+    text-transform: none;
+    color: #fcfcfc; }
+  .contacto form textarea {
+    background: #331f07;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    margin: 7px 0;
+    width: 100%;
+    text-transform: none;
+    color: #fcfcfc;
+    resize: none;
+    height: 200px; }
+
+.contacto .map {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%; }
 
 @media (max-width: 991px) {
   .home .content h3 {
-    font-size: 30px;
-  }
-}
+    font-size: 30px; } }
 
 @media (max-width: 768px) {
   header .nav {
@@ -332,24 +245,16 @@ header .nav a:hover {
     top: 100%;
     left: 0;
     right: 0;
-    background: rgb(0, 0, 0);
+    background: black;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     transition: 0.2s linear;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
   header .nav.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  }
-
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
   header .nav a {
     display: block;
     width: 100%;
-    margin: 10px;
-  }
-
+    margin: 10px; }
   .fa-times {
-    transform: rotate(180deg);
-  }
-}
+    transform: rotate(180deg); } }

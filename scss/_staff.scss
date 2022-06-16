@@ -1,0 +1,54 @@
+.staff {
+  .box {
+    width: 260px;
+    background: #331f07;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    &:hover {
+      .share {
+        right: 15px;
+      }
+    }
+
+    img {
+      background: #f8f8fe;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    h3 {
+      font-size: 22px;
+      margin: 2px 0;
+      color: $black;
+    }
+    span {
+      font-size: 15px;
+      color: $main-color;
+    }
+    .share {
+      position: absolute;
+      top: 5px;
+      right: -50px;
+      transition: 0.2s;
+
+      a {
+        border-radius: 5px;
+        background: $main-color;
+        color: #331f07;
+        display: block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        margin-top: 5px;
+        &:hover {
+          background: $black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.footer { 
+  .box {
+    flex: 1 1 250px;
+      a {
+          display: block;
+          font-size: 14px;
+          color: #777;
+          padding: 5px 0;
+            &:hover{
+                color: $main-color;
+              }
+        }
+
+      h3 {
+          font-size: 20px;
+          color: black;
+        }
+
+   
+}
+
+  .credit {
+    text-align: center;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding-top: 20px;
+        span {
+      
+            color: $main-color;
+          }
+      }
+}
+

@@ -1,0 +1,36 @@
+header {
+  box-shadow: $box-shadow;
+  background: rgba(0, 0, 0, 0.493);
+   .logo {
+      img {
+        width: 2.5rem;
+      }
+      span {
+        color: $main-color;
+      }
+   }
+   .nav {
+      a {
+        margin-left: 3px;
+        border-radius: 50px;
+        color: $black;
+        padding: 5px 15px;
+        &.active {
+          background: $main-color;
+          box-shadow: $box-shadow;
+          color: #fff;
+        }
+        &:hover {
+          background: $main-color;
+          box-shadow: $box-shadow;
+          color: #fff;
+        }
+    }
+   }
+}
+#menu-bar {
+  color: $black;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.2s linear;
+}

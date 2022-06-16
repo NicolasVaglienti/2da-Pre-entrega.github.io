@@ -1,0 +1,35 @@
+.contacto {
+  form {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    .box {
+      
+        background: #331f07;
+        border-radius: 5px;
+        font-size: 17px;
+        padding: 10px;
+        margin: 7px 0;
+        width: 100%;
+        text-transform: none;
+        color: $black;
+      }
+      textarea {
+        background: #331f07;
+        border-radius: 5px;
+        font-size: 17px;
+        padding: 10px;
+        margin: 7px 0;
+        width: 100%;
+        text-transform: none;
+        color: $black;
+        resize: none;
+        height: 200px;
+      }
+    }
+    .map {
+      border-radius: 5px;
+      height: 100%;
+      width: 100%;
+    }
+  }

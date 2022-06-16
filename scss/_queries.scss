@@ -1,0 +1,34 @@
+@media (max-width: 991px) {
+    .home .content h3 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header .nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: rgb(0, 0, 0);
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      transition: 0.2s linear;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+  
+    header .nav.active {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  
+    header .nav a {
+      display: block;
+      width: 100%;
+      margin: 10px;
+    }
+  
+    .fa-times {
+      transform: rotate(180deg);
+    }
+  }
+  
