@@ -5,22 +5,12 @@
     box-shadow: $box-shadow;
     .box {
       
-        background: #331f07;
-        border-radius: 5px;
-        font-size: 17px;
-        padding: 10px;
-        margin: 7px 0;
-        width: 100%;
+        @include contacto;
         text-transform: none;
         color: map-get($colors, "white");
       }
       textarea {
-        background: #331f07;
-        border-radius: 5px;
-        font-size: 17px;
-        padding: 10px;
-        margin: 7px 0;
-        width: 100%;
+        @include contacto;
         text-transform: none;
         color: map-get($colors, "white");
         resize: none;

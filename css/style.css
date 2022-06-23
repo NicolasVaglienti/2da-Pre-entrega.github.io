@@ -117,7 +117,7 @@ header {
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
-    background: #f8f8fe; }
+    background: #fff; }
     .blogs .box .image img {
       transition: 0.2s linear; }
       .blogs .box .image img:hover {
@@ -190,7 +190,7 @@ header {
   font-size: 14px; }
 
 .team {
-  background-color: black; }
+  background-color: #000000; }
   .team .box {
     flex: 1 1 300px;
     background: #331f07;

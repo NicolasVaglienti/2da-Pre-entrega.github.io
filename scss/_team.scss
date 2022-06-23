@@ -1,5 +1,5 @@
 .team {
-  background-color: black;
+  background-color: map-get($colors, "black");
   .box {
     flex: 1 1 300px;
     background: map-get($colors, "bg");
