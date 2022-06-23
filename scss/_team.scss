@@ -2,7 +2,7 @@
   background-color: black;
   .box {
     flex: 1 1 300px;
-    background: #331f07;
+    background: map-get($colors, "bg");
     border-radius: 5px;
     text-align: center;
     img {
@@ -10,11 +10,11 @@
       height: 70px;
     }
     h3 {
-      color: $black;
+      color: map-get($colors, "white");
       font-size: 20px;
     }
     p {
-      color: $black;
+      color: map-get($colors, "white");
       font-size: 14px;
       
     } 

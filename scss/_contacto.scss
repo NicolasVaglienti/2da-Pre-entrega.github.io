@@ -12,7 +12,7 @@
         margin: 7px 0;
         width: 100%;
         text-transform: none;
-        color: $black;
+        color: map-get($colors, "white");
       }
       textarea {
         background: #331f07;
@@ -22,7 +22,7 @@
         margin: 7px 0;
         width: 100%;
         text-transform: none;
-        color: $black;
+        color: map-get($colors, "white");
         resize: none;
         height: 200px;
       }

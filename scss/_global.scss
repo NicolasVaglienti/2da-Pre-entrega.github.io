@@ -17,33 +17,33 @@
     text-align: center;
     padding: 0 15px;
     padding-bottom: 5px;
-    color: $black;
+    color: map-get($colors, "white");
     font-size: 30px;
   }
   
   .heading span {
-    color: $main-color;
+    color: map-get($colors, "main");
   }
   
   section {
     padding: 5rem 0;
-    background-color: black;
+    background-color: map-get($colors, "black");
   }
   
   section:nth-child(odd) {
-    background: #331f07;
+    background: map-get($colors, "bg");
   }
   .link-btn {
     display: inline-block;
-    background: $main-color;
-    color: #fff;
+    background: map-get($colors, "main");
+    color: map-get($colors, "white");
     border-radius: 50px;
     padding: 5px 25px;
     font-size: 17px;
     cursor: pointer;
     box-shadow: $box-shadow;
     &:hover{
-      color: rgb(0, 0, 0);
-      background: $black;
+      color: map-get($colors, "black");
+      background: map-get($colors, "white");
     }
   }

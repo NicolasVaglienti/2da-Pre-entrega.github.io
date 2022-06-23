@@ -5,11 +5,11 @@
     background-size: cover;
     .content {
         span {
-          color: $main-color;
+          color: map-get($colors, "main");
           font-size: 20px;
         }
         h3 {
-          color: $black;
+          color: map-get($colors,"white");
           font-size: 50px;
           font-weight: bolder;
         }

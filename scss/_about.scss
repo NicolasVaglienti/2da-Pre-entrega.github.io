@@ -1,11 +1,11 @@
 .about {
   .content {
      h3 { 
-        color: $main-color;
+        color: map-get($colors, "main");
         font-size: 33px;
       }
       p {
-        color: rgb(158, 152, 152);
+        color: map-get($colors, "white");
         font-size: 14px;
       }
     }
