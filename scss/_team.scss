@@ -8,6 +8,10 @@
     img {
       margin-bottom: 10px;
       height: 70px;
+      transition: 0.2s linear;
+      &:hover {
+        transform: scale(2.5);
+      }
     }
     h3 {
       color: map-get($colors, "white");
